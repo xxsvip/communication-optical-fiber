@@ -4,13 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>communication-optical-fiber</artifactId>
-        <groupId>cn.jonhon.dcp</groupId>
+        <groupId>cn.jonhon.communication.optical.fiber</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>interferometer-dimension</artifactId>
-    <description>深圳市维度科技公司干涉仪</description>
+    <artifactId>data-collect</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>interferometer-dimension</module>
+    </modules>
 
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
 </project>
