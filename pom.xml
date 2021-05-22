@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.jonhon.communication.optical.fiber</groupId>
-    <artifactId>communication-optical-fiber</artifactId>
+    <groupId>cn.jonhon.communication.optical.fiber.dcp</groupId>
+    <artifactId>communication-optical-fiber-dcp</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
 
@@ -13,7 +13,7 @@
 
 
     <modules>
-        <module>data-collect</module>
+        <module>dcp-center</module>
     </modules>
 
 
@@ -126,10 +126,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>cobertura-maven-plugin</artifactId>
             </plugin>
         </plugins>
 
