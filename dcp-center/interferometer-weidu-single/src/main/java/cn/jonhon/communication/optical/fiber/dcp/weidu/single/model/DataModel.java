@@ -1,4 +1,4 @@
-package cn.jonhon.communication.optical.fiber.dcp.weidu.single.poi.model;
+package cn.jonhon.communication.optical.fiber.dcp.weidu.single.model;
 
 import com.alibaba.excel.annotation.ExcelProperty;
 import lombok.Data;
